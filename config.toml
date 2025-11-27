@@ -9,8 +9,6 @@ parallel-jobs = 1
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/x-inc/twitter/"
 patches-source = "crimera/piko"
-integrations-source = "crimera/revanced-integrations"
-rv-brand = "crimera ReVanced"
 
 arch = "both"
 build-mode = "both"
