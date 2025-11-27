@@ -11,6 +11,6 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-inc/twitter/"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
 rv-brand = "crimera ReVanced"
-patches-version = "auto"
+
 arch = "both"
 build-mode = "both"
