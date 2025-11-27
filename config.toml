@@ -10,5 +10,6 @@ parallel-jobs = 1
 apkmirror-dlurl = "https://apkmirror.com/apk/x-inc/twitter/"
 patches-source = "crimera/piko"
 patches-version = "v2.0.0-dev.12"
-
+app-name = "X"
+riplib = true
 build-mode = "both"
