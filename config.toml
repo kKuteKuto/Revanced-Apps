@@ -8,7 +8,10 @@ parallel-jobs = 1
 
 [Twitter]
 uptodown-dlurl = "https://twitter.uptodown.com/android/"
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
+dpi = "120-640dpi"
 patches-source = "crimera/piko"
 patches-version = "v2.0.0-dev.12"
 app-name = "X"
 build-mode = "both"
+riplib = true
