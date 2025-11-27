@@ -8,12 +8,12 @@ parallel-jobs = 1
 
 [Messenger]
 # apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
-uptodown-durl = "https://facebook-messenger.uptodown.com/android/"
+uptodown-dlurl = "https://facebook-messenger.uptodown.com/android/"
 version = "latest"
 
 [Twitter]
 # apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
-uptodown-durl = "https://twitter.uptodown.com/android/"
+uptodown-dlurl = "https://twitter.uptodown.com/android/"
 version = "latest"
 included-patches = "'Hide view count' 'Change link sharing domain'"
 
@@ -25,12 +25,12 @@ version = "latest"
 
 [Facebook]
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
-uptodown-durl = "https://facebook.uptodown.com/android/"
+uptodown-dlurl = "https://facebook.uptodown.com/android/"
 version = "latest"
 
 [X-piko]
 # apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
-uptodown-durl = "https://twitter.uptodown.com/android/"
+uptodown-dlurl = "https://twitter.uptodown.com/android/"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
 rv-brand = "crimera ReVanced"
