@@ -27,13 +27,12 @@ patches-version = "latest"
 build-mode = "both"
 riplib = true
 
-[Twitter-2]
+[Re-Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
-app-name = "X-2"
-patches-source = "Eddy00007/piko"
-rv-brand = "dev"
+app-name = "Re-X"
+patches-source = "crimera/revanced-integrations"
 patches-version = "latest"
 build-mode = "both"
 riplib = true
