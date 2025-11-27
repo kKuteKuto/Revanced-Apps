@@ -1,6 +1,6 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
-# cli-source = "inotia00/revanced-cli-patcher-22"
+cli-source = "LisoUseInAIKyrios/revanced-cli"
 # cli-version = "6.0.0-dev.2"
 remove-rv-integrations-checks = true
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -34,7 +34,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "Re-X"
-patches-source = "crimera/piko"
+patches-source = "LisoUseInAIKyrios/revanced-patches"
 patches-version = "latest"
 build-mode = "both"
 riplib = true
