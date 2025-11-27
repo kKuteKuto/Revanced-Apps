@@ -8,7 +8,6 @@ parallel-jobs = 1
 
 [X]
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
-arch = "universal"
 dpi = "120-640"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
