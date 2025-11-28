@@ -1,6 +1,6 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
-cli-source = "ReVanced/revanced-cli"
+# cli-source = "ReVanced/revanced-cli"
 # cli-version = "6.0.0-dev.2"
 remove-rv-integrations-checks = true
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -25,7 +25,7 @@ dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "X-it"
 patches-source = "speedlorenzo12/piko-it"
-patches-version = "latest"
+patches-version = "v1.54.0"
 build-mode = "both"
 riplib = true
 
@@ -34,6 +34,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "Re-X"
+version = "latest"
 patches-source = "ReVanced/revanced-patches"
 #cli-source = "zjns/revanced-cli"
 #cli-version = "v4.6.0"
