@@ -14,12 +14,12 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "X"
-enabled = "false"
+# enabled = "false"
 patches-source = "crimera/piko"
 # rv-brand = "dev"
 # patches-version = "v2.0.0-dev.13"
 patches-version = "dev"
-build-mode = "apk"
+build-mode = "both"
 riplib = true
 
 [Twitter-it]
@@ -27,10 +27,10 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "X-it"
-enabled = "false"
+# enabled = "false"
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "latest"
-build-mode = "apk"
+build-mode = "both"
 riplib = true
 
 [Re-Twitter]
@@ -38,7 +38,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "Re-X"
-enabled = "false"
+# enabled = "false"
 # version = "latest"
 # patches-source = "ReVanced/revanced-patches"
 # cli-source = "zjns/revanced-cli"
@@ -49,5 +49,5 @@ integrations-source = "crimera/revanced-integrations"
 # patches-version = "dev"
 patches-version = "latest"
 # exclusive-patches = true
-build-mode = "apk"
+build-mode = "both"
 riplib = true
