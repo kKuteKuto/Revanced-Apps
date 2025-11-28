@@ -1,9 +1,9 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 # cli-source = "ReVanced/revanced-cli"
-cli-source = "MarcaDian/revanced-cli"
+# cli-source = "MarcaDian/revanced-cli"
 # cli-version = "6.0.0-dev.2"
-remove-rv-integrations-checks = true
+# remove-rv-integrations-checks = true
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
@@ -19,7 +19,7 @@ patches-source = "crimera/piko"
 # rv-brand = "dev"
 # patches-version = "v2.0.0-dev.13"
 patches-version = "dev"
-build-mode = "both"
+build-mode = "apk"
 riplib = true
 
 [Twitter-it]
@@ -30,7 +30,7 @@ app-name = "X-it"
 enabled = "false"
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "latest"
-build-mode = "both"
+build-mode = "apk"
 riplib = true
 
 [Re-Twitter]
@@ -49,5 +49,5 @@ integrations-source = "crimera/revanced-integrations"
 # patches-version = "dev"
 patches-version = "latest"
 # exclusive-patches = true
-build-mode = "both"
+build-mode = "apk"
 riplib = true
