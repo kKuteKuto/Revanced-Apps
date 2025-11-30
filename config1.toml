@@ -3,7 +3,7 @@ parallel-jobs = 1
 # cli-source = "inotia00/revanced-cli"
 # cli-source = "MarcaDian/revanced-cli"
 # cli-version = "6.0.0-dev.2"
-# remove-rv-integrations-checks = true
+remove-rv-integrations-checks = true
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
@@ -19,7 +19,7 @@ app-name = "X-it"
 enabled = false
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "latest"
-integrations-source = "crimera/revanced-integrations"
+# integrations-source = "crimera/revanced-integrations"
 # patcher-args = """\ -OdarkThemeBackgroundColor=#FF0F0F0F \ -Oanother-option=value \ """
 build-mode = "both"
 riplib = true
