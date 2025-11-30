@@ -16,7 +16,7 @@ arch = "arm64-v8a"
 app-name = "X-it"
 # cli-source = "MarcaDian/revanced-cli"
 # cli-version = "v4.6.0"
-enabled = false
+# enabled = false
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "latest"
 # patcher-args = """\ -OdarkThemeBackgroundColor=#FF0F0F0F \ -Oanother-option=value \ """
