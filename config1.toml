@@ -22,3 +22,7 @@ patches-version = "latest"
 # patcher-args = """\ -OdarkThemeBackgroundColor=#FF0F0F0F \ -Oanother-option=value \ """
 build-mode = "both"
 riplib = true
+# patcher-args = "--legacy-options options.json"
+module-prop-name = "pikoX-it"
+# included-patches = "'Enable slide to seek' 'Custom branding'"
+# patcher-args = "-e 'Custom branding name for YouTube' -OappName='YouTub𝕖𝕏'"
