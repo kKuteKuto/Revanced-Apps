@@ -18,7 +18,7 @@ cli-source = "speedlorenzo12/piko-it"
 # cli-version = "v4.6.0"
 # enabled = false
 patches-source = "speedlorenzo12/piko-it"
-patches-version = "latest"
+# patches-version = "latest"
 # integrations-source = "crimera/revanced-integrations"
 # patcher-args = """\ -OdarkThemeBackgroundColor=#FF0F0F0F \ -Oanother-option=value \ """
 build-mode = "both"
