@@ -10,11 +10,11 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/x-formerly-twitter-11-22-0-release-0-release/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "X"
-version = "11.22.0"
+# version = "11.22.0"
 # enabled = false
 patches-source = "crimera/piko"
 # cli-version = "v4.6.0"
