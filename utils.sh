@@ -63,11 +63,17 @@ get_rv_prebuilts() {
 		dir=${TEMP_DIR}/${dir,,}-rv
 		[ -d "$dir" ] || mkdir "$dir"
 
-		local rv_rel="https://api.github.com/repos/${patches_src}/releases/${ver}"
+		local rv_rel="https://api.github.com/repos/${patches_src}/releases" name_ver
 		if [ "$ver" = "dev" ]; then
 			local resp
 			resp=$(gh_req "$rv_rel" -) || return 1
 			ver=$(jq -e -r '.[] | .tag_name' <<<"$resp" | get_highest_ver) || return 1
+		if [ "$ver" = "latest" ]; then
+			rv_rel+="/${ver}"
+			name_ver="$ver"
+		else
+			rv_rel+="/tags/${ver}"
+			name_ver="$ver"
 		fi
 
 		local url file tag_name name
