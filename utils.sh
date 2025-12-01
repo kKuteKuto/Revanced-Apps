@@ -63,7 +63,7 @@ get_rv_prebuilts() {
 		dir=${TEMP_DIR}/${dir,,}-rv
 		[ -d "$dir" ] || mkdir "$dir"
 
-		local rv_rel="https://api.github.com/repos/${patches_src}/releases" name_ver
+		local rv_rel="https://api.github.com/repos/${patches_src}/releases/${ver}"
 		if [ "$ver" = "dev" ]; then
 			local resp
 			resp=$(gh_req "$rv_rel" -) || return 1
