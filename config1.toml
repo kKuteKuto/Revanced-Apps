@@ -19,7 +19,7 @@ app-name = "X-it"
 # enabled = false
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "latest"
-rv-brand = "piko-it"
+# rv-brand = "piko-it"
 # integrations-source = "inotia00/revanced-integrations"
 # patcher-args = """\ -OdarkThemeBackgroundColor=#FF0F0F0F \ -Oanother-option=value \ """
 build-mode = "both"
