@@ -1,4 +1,4 @@
-enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 # cli-source = "inotia00/revanced-cli"
 # cli-source = "MarcaDian/revanced-cli"
@@ -19,6 +19,8 @@ app-name = "X-it"
 # enabled = false
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "latest"
+integrations-source = "speedlorenzo12/revanced-integrations"
+rv-brand = "speedlorenzo12 ReVanced"
 # rv-brand = "piko-it"
 # integrations-source = "inotia00/revanced-integrations"
 # patcher-args = """\ -OdarkThemeBackgroundColor=#FF0F0F0F \ -Oanother-option=value \ """
