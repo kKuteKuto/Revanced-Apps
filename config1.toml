@@ -14,7 +14,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 app-name = "X-it"
-
+cli-version = "v4.5.0"
 # enabled = false
 patches-source = "speedlorenzo12/piko-it"
 patches-version = "v1.54.0"
