@@ -69,12 +69,6 @@ get_rv_prebuilts() {
 			resp=$(gh_req "$rv_rel" -) || return 1
 			ver=$(jq -e -r '.[] | .tag_name' <<<"$resp" | get_highest_ver) || return 1
 		fi
-		if [ "$ver" = "latest" ]; then
-			name_ver="$ver"
-		else
-			rv_rel+="/tags/${ver}"
-			name_ver="$ver"
-		fi
 
 		local url file tag_name name
 		file=$(find "$dir" -name "${fprefix}-${name_ver#v}.${ext}" -type f 2>/dev/null)
