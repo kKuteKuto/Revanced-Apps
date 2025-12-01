@@ -1,4 +1,4 @@
-name: Build Modules & Patched Apks
+name: Build Modules & Patched X22Apks
 on:
   workflow_call:
     inputs:
