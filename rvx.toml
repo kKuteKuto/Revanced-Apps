@@ -11,7 +11,7 @@ remove-rv-integrations-checks = true
 
 [RVX-R]
 build-mode = "apk"
-patches-source = "'LisoUseInAIKyrios/revanced-patches"
+patches-source = "LisoUseInAIKyrios/revanced-patches"
 excluded-patches = "'Theme' 'GmsCore support'"
 patcher-args = "-e 'Custom branding' -OcustomName=RVX-R -e 'Change package name' -Ocustom=r.youtube.rvx"
 version = "latest"
