@@ -1,4 +1,4 @@
-name: Build Modules & Patched X22
+name: Build X piko
 on:
   workflow_call:
     inputs:
