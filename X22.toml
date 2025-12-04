@@ -23,6 +23,6 @@ patches-source = "crimera/piko"
 # cli-version = "v4.6.0"
 # rv-brand = "Piko"
 # integrations-source = "crimera/revanced-integrations"
-patches-version = "v2.0.0-dev12"
+patches-version = "v2.0.0-dev.12"
 build-mode = "apk"
 riplib = true
