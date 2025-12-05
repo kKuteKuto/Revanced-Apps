@@ -9,20 +9,32 @@ remove-rv-integrations-checks = true
 
 # you can use rvmm-config-gen to generate a config
 
-[Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
-# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
-app-name = "X"
 version = "formerly-twitter-11-22-0-release-0"
-# enabled = false
 patches-source = "crimera/piko"
+build-mode = "apk"
+riplib = true
+
+[Twitter 1]
+app-name = "X"
+# enabled = false
 # excluded-patches = "'Change version code'"
 # included-patches = "'Export all activities'"
 # cli-version = "v4.6.0"
 # rv-brand = "Piko"
 # integrations-source = "crimera/revanced-integrations"
-patches-version = "v2.0.0-dev.12"
-build-mode = "apk"
-riplib = true
+patches-version = "v2.0.0-dev.8"
+
+[Twitter 2]
+app-name = "X"
+patches-version = "v2.0.0-dev.9"
+
+[Twitter 3]
+app-name = "X"
+patches-version = "v2.0.0-dev.10"
+
+[Twitter 4]
+app-name = "X"
+patches-version = "v2.0.0-dev11"
