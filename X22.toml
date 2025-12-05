@@ -9,6 +9,8 @@ remove-rv-integrations-checks = true
 
 # you can use rvmm-config-gen to generate a config
 
+[Twitter 1]
+app-name = "X"
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
@@ -16,9 +18,6 @@ version = "formerly-twitter-11-22-0-release-0"
 patches-source = "crimera/piko"
 build-mode = "apk"
 riplib = true
-
-[Twitter 1]
-app-name = "X"
 # enabled = false
 # excluded-patches = "'Change version code'"
 # included-patches = "'Export all activities'"
@@ -30,11 +29,33 @@ patches-version = "v2.0.0-dev.8"
 [Twitter 2]
 app-name = "X"
 patches-version = "v2.0.0-dev.9"
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
+dpi = "120-640dpi"
+arch = "arm64-v8a"
+version = "formerly-twitter-11-22-0-release-0"
+patches-source = "crimera/piko"
+build-mode = "apk"
+riplib = true
 
 [Twitter 3]
 app-name = "X"
 patches-version = "v2.0.0-dev.10"
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
+dpi = "120-640dpi"
+arch = "arm64-v8a"
+version = "formerly-twitter-11-22-0-release-0"
+patches-source = "crimera/piko"
+build-mode = "apk"
+riplib = true
 
 [Twitter 4]
 app-name = "X"
 patches-version = "v2.0.0-dev11"
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
+dpi = "120-640dpi"
+arch = "arm64-v8a"
+version = "formerly-twitter-11-22-0-release-0"
+patches-source = "crimera/piko"
+build-mode = "apk"
+riplib = true
+
