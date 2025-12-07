@@ -1,5 +1,5 @@
 enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 0
+parallel-jobs = 1
 # cli-source = "inotia00/revanced-cli"
 # cli-source = "MarcaDian/revanced-cli"
 # cli-version = "6.0.0-dev.2"
@@ -22,7 +22,7 @@ riplib = true
 # enabled = false
 # excluded-patches = "'Change version code'"
 # included-patches = "'Export all activities'"
-# cli-source = "revanced/revanced-cli"
-cli-version = "v4.6.0"
+cli-source = "crimera/revanced-cli"
+# cli-version = "v4.6.0"
 # rv-brand = "Piko"
 # integrations-source = "crimera/revanced-integrations"
