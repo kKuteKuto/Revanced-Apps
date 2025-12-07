@@ -1,5 +1,5 @@
 enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+parallel-jobs = 0
 # cli-source = "inotia00/revanced-cli"
 # cli-source = "MarcaDian/revanced-cli"
 # cli-version = "6.0.0-dev.2"
@@ -9,20 +9,20 @@ remove-rv-integrations-checks = true
 
 # you can use rvmm-config-gen to generate a config
 
-[Twitter]
+[X]
 app-name = "X"
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
 version = "formerly-twitter-11-22-0-release-0"
-patches-source = "crimera/piko-it"
+patches-source = "crimera/piko"
 patches-version = "latest"
 build-mode = "apk"
 riplib = true
 # enabled = false
 # excluded-patches = "'Change version code'"
 # included-patches = "'Export all activities'"
-cli-source = "crimera/piko"
-# cli-version = "v4.6.0"
-# rv-brand = "Piko"
-# integrations-source = "crimera/revanced-integrations"
+# cli-source = "crimera/piko"
+cli-version = "v4.6.0"
+rv-brand = "Piko"
+integrations-source = "crimera/revanced-integrations"
