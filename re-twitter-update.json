@@ -1,6 +1,6 @@
 {
-  "version": "v11.45.0-release.1 (patches dev.11)",
-  "versionCode": 13,
-  "zipUrl": "https://github.com/kKuteKuto/Revanced-Apps/releases/download/13/re-x-revanced-magisk-v11.45.0-release.1-arm64-v8a.zip",
+  "version": "v11.46.0-release.0 (patches dev.12)",
+  "versionCode": 14,
+  "zipUrl": "https://github.com/kKuteKuto/Revanced-Apps/releases/download/14/re-x-revanced-magisk-v11.46.0-release.0-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/kKuteKuto/Revanced-Apps/update/build.md"
 }
