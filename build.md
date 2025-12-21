@@ -4,4 +4,4 @@ Patches: ReVanced/patches-5.47.0-dev.18.rvp
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.47.0-dev.18)  
 
 Skipped:  
-Patches: crimera/patches-2.0.0-dev.18.rvp    
+Patches: crimera/patches-2.0.0-dev.18.rvp      
