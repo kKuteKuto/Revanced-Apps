@@ -20,13 +20,15 @@ remove-rv-integrations-checks = true
 apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter"
 dpi = "120-640dpi"
 arch = "arm64-v8a"
-version = "formerly-twitter-11-20-0-release-0"
+version = "formerly-twitter-11-22-0-release-0"
 # patches-version = "latest"
 build-mode = "apk"
 riplib = true
+excluded-patches = "'Bring back twitter' 'Dynamic color' 'Disunify xchat system'"
+patcher-args = "-e 'Change version code' -OVersioncode=999999999"
 # enabled = false
 # excluded-patches = "'Change version code'"
-# included-patches = "'Export all activities'"
+included-patches = "'Export all activities'"
 # cli-source = "crimera/revanced-integrations"
 # cli-version = "v4.6.0"
 # rv-brand = "Piko"
