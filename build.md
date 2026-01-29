@@ -1,4 +1,4 @@
 Twitter: 11.52.0-beta.0  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: crimera/patches-2.0.0-dev.22.rvp  
-[Changelog](https://github.com/crimera/piko/releases/tag/v2.0.0-dev.22)  
+Patches: crimera/patches-2.0.0-dev.23.rvp  
+[Changelog](https://github.com/crimera/piko/releases/tag/v2.0.0-dev.23)  
