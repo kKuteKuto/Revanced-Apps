@@ -2,7 +2,7 @@
 parallel-jobs = 1
 # cli-source = "inotia00/revanced-cli"
 patches-source = "crimera/piko"
-patches-version = "dev"
+patches-version = "v3.0.0-dev.1"
 # integrations-source = "crimera/revanced-integrations"
 # cli-source = "crimera/piko"
 # cli-version = "v4.6.2"
